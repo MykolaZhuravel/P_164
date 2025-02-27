@@ -1,0 +1,7 @@
+LOAD DATA INFILE 'E:/02PROJETS/P_Soutien_164/E-LoadData/exercices/t_livre'
+INTO TABLE t_livre
+CHARACTER SET utf8
+FIELDS TERMINATED BY '\t'
+LINES TERMINATED BY '\n'
+IGNORE 1 LINES
+(ID, Titre, ID_Auteur, ID_Sujet, ID_Editeur);
